@@ -77,6 +77,10 @@ export const FormContainer = styled.div`
             border-color: ${props => props.theme["green-500"]};
         }
     }
+    
+    .minutos{
+        width: 4rem;
+    }
 `
 
 export const CounterContainer = styled.div`
@@ -91,7 +95,7 @@ export const CounterContainer = styled.div`
 
     span{
         background: ${props => props.theme["gray-700"]};
-        padding: 2rem 2.4rem;
+        padding: 1.8rem 2rem;
         border-radius: 8px;
     }
 `
