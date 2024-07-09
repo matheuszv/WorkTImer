@@ -15,7 +15,7 @@ export function Home(){
                     <input type="text" id="task" placeholder="Dê o nome para seu projeto" onChange={ e => setTask(e.target.value)} value={task} required/>
 
                     <label htmlFor="minutesAmount">durante</label>
-                    <input type="number" id="minutesAmount" class="minutos" placeholder="00" min={0} max={6000} required/>
+                    <input type="number" id="minutesAmount" className="minutos" placeholder="00" min={0} max={6000} required/>
 
                     <span>minutos.</span>
                 </FormContainer>
